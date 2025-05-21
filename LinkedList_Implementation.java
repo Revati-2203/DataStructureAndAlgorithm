@@ -31,7 +31,7 @@ class MyLinkedList {
     }
     
     public void addAtHead(int val) {
-        Node newHead = new node(val);
+        Node newHead = new Node(val);
         newHead.next=head;
         head=newHead;
         if(current_size==0){
