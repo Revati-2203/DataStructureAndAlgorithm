@@ -8,6 +8,9 @@ public class FibonacciNumber {
             System.out.print(fibonacciOfN(i++) + ", ");
         }
     }
+    //0,1,1,2,3,5,8,13
+    // Fn = Fn-1 + Fn-2 untill n<=1
+
 
     // O(2^n)
     static int fibonacciOfN(int n){

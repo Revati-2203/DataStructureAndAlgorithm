@@ -10,3 +10,6 @@ public class Josephus {
         System.out.println(josephus(6,4));
     }
 }
+
+
+
